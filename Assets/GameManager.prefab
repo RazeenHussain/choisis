@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8755867423666202522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8755867423666202521}
+  - component: {fileID: 8755867423666202527}
+  - component: {fileID: 8755867423666202520}
+  - component: {fileID: 8755867423666202526}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8755867423666202521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755867423666202522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8755867423666202527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755867423666202522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b2bc0b2f305984caebea6878045868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inName: {fileID: 0}
+  inAge: {fileID: 0}
+  inTime: {fileID: 0}
+  inGender: {fileID: 0}
+  butBegin: {fileID: 0}
+  splashScreen: {fileID: 0}
+  initInterface: {fileID: 0}
+  page3: {fileID: 0}
+  butInstructions: {fileID: 0}
+  foodYes: {fileID: 0}
+  outdoorYes: {fileID: 0}
+  indoorYes: {fileID: 0}
+  socialYes: {fileID: 0}
+  foodNo: {fileID: 0}
+  outdoorNo: {fileID: 0}
+  indoorNo: {fileID: 0}
+  socialNo: {fileID: 0}
+  timeLimit: 0
+  gender: 0
+  path: 
+--- !u!114 &8755867423666202520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755867423666202522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0c98f780a1da648af5c3c3647b91ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butInstructions: {fileID: 0}
+  butCircle: {fileID: 0}
+  butPurple: {fileID: 0}
+  txtTrialExp: {fileID: 0}
+  butStart: {fileID: 0}
+  butStart2: {fileID: 0}
+  butTrial1: {fileID: 0}
+  butTrial2: {fileID: 0}
+  butTrial3: {fileID: 0}
+  butTrial4: {fileID: 0}
+  butTrial5: {fileID: 0}
+  butStart3: {fileID: 0}
+  butPartC: {fileID: 0}
+  writePath: 
+  fileInfo: {fileID: 8755867423666202527}
+--- !u!114 &8755867423666202526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755867423666202522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: debcd515a120fcb4dbbbbf5a8805a4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butPartC: {fileID: 0}
+  butPartF: {fileID: 0}
+  butPartO: {fileID: 0}
+  butPartI: {fileID: 0}
+  butPartL: {fileID: 0}
+  butExit: {fileID: 0}
+  txtExit: {fileID: 0}
+  butCircle: {fileID: 0}
+  butPurple: {fileID: 0}
+  butC11: {fileID: 0}
+  butC12: {fileID: 0}
+  butC21: {fileID: 0}
+  butC22: {fileID: 0}
+  butC31: {fileID: 0}
+  butC32: {fileID: 0}
+  butC33: {fileID: 0}
+  butC41: {fileID: 0}
+  butC42: {fileID: 0}
+  butC43: {fileID: 0}
+  butC51: {fileID: 0}
+  butC52: {fileID: 0}
+  butC53: {fileID: 0}
+  butC54: {fileID: 0}
+  butC61: {fileID: 0}
+  butC62: {fileID: 0}
+  butC63: {fileID: 0}
+  butC64: {fileID: 0}
+  butF11: {fileID: 0}
+  butF12: {fileID: 0}
+  butF21: {fileID: 0}
+  butF22: {fileID: 0}
+  butF31: {fileID: 0}
+  butF32: {fileID: 0}
+  butF33: {fileID: 0}
+  butF41: {fileID: 0}
+  butF42: {fileID: 0}
+  butF43: {fileID: 0}
+  butF51: {fileID: 0}
+  butF52: {fileID: 0}
+  butF53: {fileID: 0}
+  butF54: {fileID: 0}
+  butF61: {fileID: 0}
+  butF62: {fileID: 0}
+  butF63: {fileID: 0}
+  butF64: {fileID: 0}
+  butO11: {fileID: 0}
+  butO12: {fileID: 0}
+  butO21: {fileID: 0}
+  butO22: {fileID: 0}
+  butO31: {fileID: 0}
+  butO32: {fileID: 0}
+  butO33: {fileID: 0}
+  butO41: {fileID: 0}
+  butO42: {fileID: 0}
+  butO43: {fileID: 0}
+  butO51: {fileID: 0}
+  butO52: {fileID: 0}
+  butO53: {fileID: 0}
+  butO54: {fileID: 0}
+  butO61: {fileID: 0}
+  butO62: {fileID: 0}
+  butO63: {fileID: 0}
+  butO64: {fileID: 0}
+  butI11: {fileID: 0}
+  butI12: {fileID: 0}
+  butI21: {fileID: 0}
+  butI22: {fileID: 0}
+  butI31: {fileID: 0}
+  butI32: {fileID: 0}
+  butI33: {fileID: 0}
+  butI41: {fileID: 0}
+  butI42: {fileID: 0}
+  butI43: {fileID: 0}
+  butI51: {fileID: 0}
+  butI52: {fileID: 0}
+  butI53: {fileID: 0}
+  butI54: {fileID: 0}
+  butI61: {fileID: 0}
+  butI62: {fileID: 0}
+  butI63: {fileID: 0}
+  butI64: {fileID: 0}
+  butL11: {fileID: 0}
+  butL12: {fileID: 0}
+  butL21: {fileID: 0}
+  butL22: {fileID: 0}
+  butL31: {fileID: 0}
+  butL32: {fileID: 0}
+  butL33: {fileID: 0}
+  butL41: {fileID: 0}
+  butL42: {fileID: 0}
+  butL43: {fileID: 0}
+  butL51: {fileID: 0}
+  butL52: {fileID: 0}
+  butL53: {fileID: 0}
+  butL54: {fileID: 0}
+  butL61: {fileID: 0}
+  butL62: {fileID: 0}
+  butL63: {fileID: 0}
+  butL64: {fileID: 0}
+  timeLimit: 15
+  writePath: 
+  fileInfo: {fileID: 8755867423666202527}
